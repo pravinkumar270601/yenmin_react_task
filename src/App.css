@@ -1,0 +1,33 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+/* destop view  */
+@media (min-width: 992px) {
+    main{
+        margin: 5% 10% 3% 10%;
+    }
+}
+
+/* tablet view  */
+
+@media (min-width: 621px) and (max-width: 991px) {
+    main{
+        margin: 5% 10% 3% 10%;
+        
+    }
+    
+}
+
+/* mobile view  */
+
+@media (max-width: 620px) {
+    main{
+        margin: 20px 10px;
+
+    }
+}

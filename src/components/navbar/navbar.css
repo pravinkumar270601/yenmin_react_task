@@ -1,0 +1,62 @@
+#serach,
+input[type="text"]::placeholder {
+  color: white;
+}
+
+.serach-div {
+  position: relative;
+}
+.nav-text {
+  color: white;
+}
+.icon {
+  color: white;
+  margin-left: -31px;
+  font-size: 23px;
+}
+.icon2 {
+  color: white;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.logo {
+  height: 100%;
+}
+
+/* destop view  */
+@media (min-width: 1111px) {
+  .logo {
+    width: 184px;
+  }
+  #serach,
+input[type="text"] {
+  color: white;
+  width: 400px;
+}
+}
+
+/* tablet view  */
+
+@media (min-width: 652px) and (max-width: 1110px) {
+  .logo {
+    width: 184px;
+  }
+  #serach,
+  input[type="text"] {
+    color: white;
+    width: 200px;
+  }
+}
+
+/* mobile view  */
+
+@media (max-width: 651px) {
+  .logo {
+    width: 100px;
+  }
+  #serach,
+  input[type="text"] {
+    display: none;
+  }
+}
